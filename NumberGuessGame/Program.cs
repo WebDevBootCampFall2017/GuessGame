@@ -11,6 +11,7 @@ namespace NumberGuessGame
 
             Console.WriteLine("Welcome to the Infamously Terrible Number Guess Game!");
 
+
             Console.WriteLine("What is your name contestent?");
             player_name = Console.ReadLine();
             Console.WriteLine("Lets roll the dice behind the screen, and see what number we get!");
