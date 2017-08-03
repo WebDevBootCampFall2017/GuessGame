@@ -8,7 +8,7 @@ namespace NumberGuessGame
         {
             //I want to remember the username, so we create a var to hold it
             String player_name;
-            Console.WriteLine("Welcome to the World Famous Guessing game!");
+            Console.WriteLine("Welcome to the WORLD FAMOUS GUESSING GAME!");
             Console.WriteLine("What is your name contestent?");
             player_name = Console.ReadLine();
             Console.WriteLine("Lets roll the dice behind the screen, and see what number we get!");
