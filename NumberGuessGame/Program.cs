@@ -26,7 +26,7 @@ namespace NumberGuessGame
 
                 //This call will cause your program to wait for n milisecond before continuing!
                 //Here n is 2000, which means 2 seconds
-				System.Threading.Thread.Sleep(2000);
+				System.Threading.Thread.Sleep(3000);        //my change is here.
 				
                 //get random string
 				int statement_number = (int)(r.NextDouble() * 5.0);
