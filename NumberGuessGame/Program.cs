@@ -7,8 +7,7 @@ namespace NumberGuessGame
         public static void Main(string[] args)
         {
             //I want to remember the username, so we create a var to hold it
-            String player_name;
-            
+            String player_name;            
             Console.WriteLine("Welcome to the World Famous Guessing game!");
 
             Console.WriteLine("What is your name contestent?");
@@ -48,8 +47,8 @@ namespace NumberGuessGame
 						break;
                 }
             }
-
-            System.Threading.Thread.Sleep(2000);
+            // adding a comment and changing the delay to 3 seconds
+            System.Threading.Thread.Sleep(3000);
             int secret = (int)(r.NextDouble() * 100.0);
 
             Console.WriteLine("Great!  We have our number!  Now guess out of 100!");
