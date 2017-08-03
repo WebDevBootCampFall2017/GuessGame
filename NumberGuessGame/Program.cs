@@ -67,7 +67,7 @@ namespace NumberGuessGame
                 }
 
                 //Okay, we have a valid int, but we need to make sure it's in range
-                if (iGuess >= 100 || iGuess < 0){
+                if (iGuess >= 10 || iGuess < 0){
 					Console.WriteLine("That's not how this works!  That's not how any of this works!  Guess again!");
 					continue;
                 }
