@@ -54,7 +54,7 @@ namespace NumberGuessGame
 
             while (true){
                 //our main game loop
-                Console.WriteLine("What's your Guess?");
+                Console.WriteLine("What's your best Guess?");
                 String sGuess = Console.ReadLine();
                 int iGuess = 0;
 
