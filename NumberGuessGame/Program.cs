@@ -10,9 +10,11 @@ namespace NumberGuessGame
             String player_name;
 
             Console.WriteLine("Welcome to the Infamously Terrible Number Guess Game!");
+            Console.WriteLine("My day job is an amateur yoga instructor with rage issues!");
+            Console.WriteLine("Don't make me mad kid! *winks*\n");
+            System.Threading.Thread.Sleep(3000);
 
-
-            Console.WriteLine("What is your name contestent?");
+            Console.WriteLine("What is your name contestant?");
             player_name = Console.ReadLine();
             Console.WriteLine("Lets roll the dice behind the screen, and see what number we get!");
 
