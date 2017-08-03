@@ -49,7 +49,7 @@ namespace NumberGuessGame
             }
 
             System.Threading.Thread.Sleep(2000);
-            int secret = (int)(r.NextDouble() * 100.0);
+            int secret = (int)(r.NextDouble() * 200.0);
 
             Console.WriteLine("Great!  We have our number!  Now guess out of 100!");
 
@@ -67,7 +67,7 @@ namespace NumberGuessGame
                 }
 
                 //Okay, we have a valid int, but we need to make sure it's in range
-                if (iGuess >= 100 || iGuess < 0){
+                if (iGuess >= 200 || iGuess < 0){
 					Console.WriteLine("That's not how this works!  That's not how any of this works!  Guess again!");
 					continue;
                 }
