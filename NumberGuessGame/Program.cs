@@ -39,7 +39,7 @@ namespace NumberGuessGame
                         Console.WriteLine("....*mumble* 42 again?!  I think this planet is trying to tell me something...");
 						break;
 					case 4:
-                        Console.WriteLine("....*mumble* Yatzee!  Wait, wrong game...");
+                        Console.WriteLine("....*mumble* Yahtzee!  Wait, wrong game...");
 						break;
 					case 5:
                         Console.WriteLine("....*mumble* 135?  How did I roll that on a D100...");
