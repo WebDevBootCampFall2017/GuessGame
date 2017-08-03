@@ -62,7 +62,7 @@ namespace NumberGuessGame
                 //Try to parse the int
                 if (!int.TryParse(sGuess, out iGuess)){
                     //We couldn't make a number
-                    Console.WriteLine("Look, you have to guess a number.  No more funny Business!");
+                    Console.WriteLine("Look, you have to guess a number.  No more funny business!");
                     continue;
                 }
 
@@ -85,7 +85,8 @@ namespace NumberGuessGame
                 if (iGuess == secret){
                     Console.WriteLine("Correct!  You're a winner!");
 					Console.WriteLine("...Great, Now I can go home and nap!");
-					Console.WriteLine("Shoo!  Game's over!  Go Away!");
+                    System.Threading.Thread.Sleep(4000);
+                    Console.WriteLine("Are you still here? Shoo!  Game's over!  Go Away!");
                     Console.ReadKey();
                     break;
                 }
