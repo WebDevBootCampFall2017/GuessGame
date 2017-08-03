@@ -51,7 +51,7 @@ namespace NumberGuessGame
             System.Threading.Thread.Sleep(2000);
             int secret = (int)(r.NextDouble() * 200.0);
 
-            Console.WriteLine("Great!  We have our number!  Now guess out of 100!");
+            Console.WriteLine("Great!  We have our number!  Now guess out of 200!");
 
             while (true){
                 //our main game loop
