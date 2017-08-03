@@ -14,16 +14,16 @@ namespace NumberGuessGame
             Console.WriteLine("Don't make me mad kid! *winks*\n");
             System.Threading.Thread.Sleep(3000);
 
-            Console.WriteLine("What is your name contestant?");
+            Console.WriteLine("What is your name peasant?");
             player_name = Console.ReadLine();
-            Console.WriteLine("Lets roll the dice behind the screen, and see what number we get!");
+            Console.WriteLine("Close your eyes {0}, this is a secret process!", player_name);
 
             //Lets create our random var here
             //We can reuse this to get multiple random numbers
             Random r = new Random();
 
             //Lets mess with the user a bit
-            int number_of_statements = (int)(r.NextDouble()*5.0);
+            int number_of_statements = (int)(r.NextDouble()* 6.0);
 
             for (int i = 0; i < number_of_statements; i++){
 
@@ -32,7 +32,7 @@ namespace NumberGuessGame
 				System.Threading.Thread.Sleep(2000);
 				
                 //get random string
-				int statement_number = (int)(r.NextDouble() * 5.0);
+				int statement_number = (int)(r.NextDouble() * 6.0);
                 switch (statement_number){
                     case 1:
                         Console.WriteLine("....*mumble* Oh Dear, that's too easy...");
@@ -49,6 +49,9 @@ namespace NumberGuessGame
 					case 5:
                         Console.WriteLine("....*mumble* 135?  How did I roll that on a D100...");
 						break;
+                    case 6:
+                        Console.WriteLine("....*grumble* Who do you think you are looking at me like that? Where's my booze!?");
+                        break;
                 }
             }
 
