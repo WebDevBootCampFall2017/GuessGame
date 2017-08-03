@@ -49,7 +49,7 @@ namespace NumberGuessGame
             }
 
             System.Threading.Thread.Sleep(2000);
-            int secret = (int)(r.NextDouble() * 100.0);
+            int secret = (int)(r.NextDouble() * 10.0);
 
             Console.WriteLine("Great!  We have our number!  Now guess out of 100!");
 
