@@ -91,7 +91,7 @@ namespace NumberGuessGame
                 }
 
                 if (iGuess == secret){
-                    Console.WriteLine("Correct!  You're a winner!");
+                    Console.WriteLine("Winner Winner Chicken Dinner!");
 					Console.WriteLine("...Great, Now I can go home and nap!");
 					Console.WriteLine("Shoo!  Game's over!  Go Away!");
                     Console.ReadKey();
